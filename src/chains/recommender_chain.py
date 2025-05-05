@@ -107,9 +107,9 @@ if __name__ == "__main__":
         with open(path) as f:
             return json.load(f)
 
-    dummy_user_prefs = load_json_file("user_prefs.json")
-    dummy_fundamentals = load_json_file("fundamentals.json")
-    dummy_sentiments = load_json_file("sentiments.json")
+    dummy_user_prefs = load_json_file("src/utils/user_prefs.json")
+    dummy_fundamentals = load_json_file("src/utils/fundamentals.json")
+    dummy_sentiments = load_json_file("src/utils/sentiments.json")
 
     # Optionally define a custom scoring method string
     custom_scoring = (

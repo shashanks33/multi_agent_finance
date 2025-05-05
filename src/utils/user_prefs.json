@@ -1,0 +1,9 @@
+{
+    "user_id": "user_123",
+    "risk_tolerance": "moderate",
+    "trade_frequency": "weekly",
+    "sector_preference": ["tech", "healthcare"],
+    "trading_style": "value",
+    "experience_level": "mid"
+  }
+  

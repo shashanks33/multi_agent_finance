@@ -1,0 +1,23 @@
+{
+    "AAPL":   { "sentiment_score":  0.72, "sentiment_label": "Positive" },
+    "MSFT":   { "sentiment_score": -0.15, "sentiment_label": "Negative" },
+    "GOOGL":  { "sentiment_score":  0.34, "sentiment_label": "Positive" },
+    "AMZN":   { "sentiment_score":  0.05, "sentiment_label": "Neutral"  },
+    "TSLA":   { "sentiment_score":  0.80, "sentiment_label": "Positive" },
+    "FB":     { "sentiment_score": -0.40, "sentiment_label": "Negative" },
+    "NVDA":   { "sentiment_score":  0.60, "sentiment_label": "Positive" },
+    "NFLX":   { "sentiment_score":  0.12, "sentiment_label": "Neutral"  },
+    "BABA":   { "sentiment_score": -0.25, "sentiment_label": "Negative" },
+    "JPM":    { "sentiment_score":  0.10, "sentiment_label": "Neutral"  },
+    "V":      { "sentiment_score":  0.22, "sentiment_label": "Positive" },
+    "JNJ":    { "sentiment_score": -0.05, "sentiment_label": "Neutral"  },
+    "WMT":    { "sentiment_score":  0.18, "sentiment_label": "Positive" },
+    "PG":     { "sentiment_score":  0.02, "sentiment_label": "Neutral"  },
+    "DIS":    { "sentiment_score": -0.30, "sentiment_label": "Negative" },
+    "ADBE":   { "sentiment_score":  0.45, "sentiment_label": "Positive" },
+    "PYPL":   { "sentiment_score":  0.08, "sentiment_label": "Neutral"  },
+    "INTC":   { "sentiment_score": -0.10, "sentiment_label": "Negative" },
+    "CSCO":   { "sentiment_score":  0.20, "sentiment_label": "Positive" },
+    "ORCL":   { "sentiment_score": -0.02, "sentiment_label": "Neutral"  }
+  }
+  

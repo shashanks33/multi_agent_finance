@@ -1,0 +1,29 @@
+{
+    "AAPL": {
+      "company_overview": "Apple Inc. makes iPhones, iPads and services. Current price: $205.35 (+13% YTD).",
+      "key_fundamental_metrics": {
+        "YoY_revenue_growth": "5.13%",
+        "gross_margin": "46.6%",
+        "net_profit_margin": "24.3%",
+        "debt_to_equity": "147.0",
+        "free_cash_flow": "$108.8B"
+      },
+      "analyst_sentiment_summary": "42 analysts – consensus BUY, target $233.36",
+      "red_flags_or_concerns": "iPhone saturation; supply risks",
+      "latest_earnings_call_highlights": "Services growth softening"
+    },
+    "MSFT": {
+      "company_overview": "Microsoft Corp builds Windows, Azure and Office. Price: $310 (−2.5% YTD).",
+      "key_fundamental_metrics": {
+        "YoY_revenue_growth": "14.3%",
+        "gross_margin": "68.1%",
+        "net_profit_margin": "36.5%",
+        "debt_to_equity": "50.2",
+        "free_cash_flow": "$56.1B"
+      },
+      "analyst_sentiment_summary": "38 analysts – consensus HOLD, target $320.00",
+      "red_flags_or_concerns": "PC cycle slowdown; regulation risk",
+      "latest_earnings_call_highlights": "Cloud offsets Windows weakness"
+    }
+  }
+  
