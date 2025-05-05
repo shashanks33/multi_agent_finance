@@ -1,0 +1,18 @@
+multi-agent-finance/
+├── requirements.txt
+├── .env
+├── src/
+│   ├── __init__.py
+│   ├── chains/
+│   │   ├── finance_chain.py        # your FinanceAgent + FinanceTool wrapper
+│   │   ├── news_chain.py           # your NewsAgent
+│   │   ├── sentiment_chain.py      # your SentimentAgent
+│   │   └── recommender_chain.py    # the LLMChain we just wrote
+│   ├── graph/
+│   │   └── pipeline_graph.py       # LangGraph Node definitions + Graph wiring
+│   ├── streamlit_app.py            # your Streamlit UI entrypoint
+│   ├── utils/
+│   │   ├── storage.py              # helpers to load/save JSON, connect to DB/Cache
+│   │   └── settings.py             # load .env, constants, API-keys
+│   └── orchestrator.py             # (optional) one-off runner combining chains or graph
+└── README.md
