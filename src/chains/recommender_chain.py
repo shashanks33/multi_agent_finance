@@ -8,48 +8,41 @@ from langchain_openai import ChatOpenAI
 from langchain.schema.runnable import RunnableSequence
 from langchain_openai import ChatOpenAI
 from langchain.schema import AIMessage
-# from langchain import RunnableSequence
-
-# Load environment variables
 load_dotenv()
 
-# Prepare the reusable prompt and LLM runner
 def get_recommender_runner(
     model_name: str = "gpt-4o-mini",
     temperature: float = 0.2
 ) -> RunnableSequence:
-    """
-    Builds a RunnableSequence that first formats via PromptTemplate, then calls the ChatOpenAI LLM.
-    """
     prompt = PromptTemplate(
         input_variables=["fundamentals_json", "sentiments_json", "user_preferences", "scoring_method"],
         template="""
-You are a financial advisor. Based on the following fundamentals, sentiments, user preferences, and scoring instructions:
+            You are a financial advisor. Based on the following fundamentals, sentiments, user preferences, and scoring instructions:
 
-1) FUNDAMENTALS as JSON:
-{fundamentals_json}
+            1) FUNDAMENTALS as JSON:
+            {fundamentals_json}
 
-2) NEWS SENTIMENTS as JSON:
-{sentiments_json}
+            2) NEWS SENTIMENTS as JSON:
+            {sentiments_json}
 
-3) User preferences as JSON:
-{user_preferences}
+            3) User preferences as JSON:
+            {user_preferences}
 
-4) Scoring method description:
-{scoring_method}
+            4) Scoring method description:
+            {scoring_method}
 
-Rank the top 5 tickers for this user from most to least suitable using the provided scoring method, and for each ticker give a 2-sentence rationale.
-Output in JSON array form (pure JSON, no markdown fences):
-[
-    {{
-        "ticker": "AAPL",
-        "score": 0.87,
-        "rationale": "..."
-    }},
-    ...
-]
-""".strip()
-    )
+            Rank the top 5 tickers for this user from most to least suitable using the provided scoring method, and for each ticker give a 2-sentence rationale.
+            Output in JSON array form (pure JSON, no markdown fences):
+            [
+                {{
+                    "ticker": "AAPL",
+                    "score": 0.87,
+                    "rationale": "..."
+                }},
+                ...
+            ]
+        """.strip()
+        )
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         raise ValueError("OPENAI_API_KEY not found in environment.")
@@ -69,26 +62,23 @@ def run_recommender(
     model_name: str = "gpt-4o-mini",
     temperature: float = 0.2
 ) -> list:
-    """
-    Runs the prompt+LLM runner and parses the JSON recommendation list.
-    """
     runner = get_recommender_runner(model_name=model_name, temperature=temperature)
     inputs = {
         "fundamentals_json": json.dumps(fundamentals),
-        "sentiments_json": json.dumps(sentiments),
+        "sentiments_json":  json.dumps(sentiments),
         "user_preferences": json.dumps(user_preferences),
-        "scoring_method": scoring_method
+        "scoring_method":   scoring_method
     }
-    # Invoke the pipeline
     raw_output = runner.invoke(inputs)
-    # Extract text from AIMessage if needed
+
+    # Extract the text
     if isinstance(raw_output, AIMessage):
         text = raw_output.content
     else:
         text = str(raw_output)
     text = text.strip()
 
-    # Strip markdown fences
+    # Strip out any markdown fences
     m = re.search(r"```json\s*(.*?)```", text, re.S)
     if m:
         text = m.group(1).strip()
@@ -105,13 +95,14 @@ def run_recommender(
         raise
 
 
-# CLI test harness
 if __name__ == "__main__":
-    pkg_root = Path(__file__).resolve().parent.parent
-    utils_dir = pkg_root / "src" / "utils"
+    # locate src/data relative to this file
+    src_dir = Path(__file__).resolve().parent.parent
+    data_dir = src_dir / "data"
+
     def load_json(fn):
-        path = utils_dir / fn
-        return json.loads(path.read_text())
+        return json.loads((data_dir / fn).read_text())
+
     prefs = load_json("user_prefs.json")
     funds = load_json("fundamentals.json")
     sents = load_json("sentiments.json")

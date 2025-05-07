@@ -5,13 +5,12 @@ from chains.recommender_chain import run_recommender
 from dotenv import load_dotenv
 
 load_dotenv()
-# Load JSON helper
+
 def load_json_file(path: Path) -> dict:
     if not path.exists():
         raise FileNotFoundError(f"Config file not found: {path}")
     return json.loads(path.read_text())
 
-# Streamlit UI
 def main():
     st.set_page_config(page_title="Multi-Agent Finance Dashboard", layout="wide")
     st.title("🔍 Multi-Agent Finance Dashboard")
@@ -29,17 +28,19 @@ def main():
     )
 
     if st.sidebar.button("Get Recommendations"):
-        # Locate utils directory relative to this file
         base_dir = Path(__file__).resolve().parent
-        utils_dir = base_dir / "utils"
+        data_dir = base_dir / "data"
 
-        fundamentals = load_json_file(utils_dir / "fundamentals.json")
-        sentiments   = load_json_file(utils_dir / "sentiments.json")
+        # Load the two JSON fixtures from src/data
+        fundamentals = load_json_file(data_dir / "fundamentals.json")
+        sentiments   = load_json_file(data_dir / "sentiments.json")
+
+        # Build user prefs from the UI
         user_prefs = {
-            "risk_tolerance": risk,
-            "trade_frequency": freq,
+            "risk_tolerance":   risk,
+            "trade_frequency":  freq,
             "sector_preference": sectors,
-            "trading_style": style,
+            "trading_style":    style,
             "experience_level": level,
         }
 

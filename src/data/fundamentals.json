@@ -1,0 +1,562 @@
+{
+  "AAPL": {
+    "elevator_pitch": "Apple Inc., led by CEO Mr. Timothy D. Cook, is a pioneering force in the technology sector, renowned for its innovative products and services that redefine user experiences. With a market cap of $0, Apple is poised for a transformative comeback, focusing on sustainable growth and cutting-edge advancements in areas like artificial intelligence, augmented reality, and health technology. While currently offering a 0.00% dividend yield, the company's commitment to reinvesting in research and development positions it as a compelling opportunity for investors seeking long-term value in a rapidly evolving digital landscape. Join us as we shape the future of technology and enhance the way the world connects and interacts.",
+    "key_stats": {
+      "annualized_return": 0.24003781848449546,
+      "annualized_volatility": 0.2992498252486542,
+      "max_drawdown": -0.33433711682495615
+    },
+    "technicals": {
+      "SMA_20": 200.1885,
+      "EMA_20": 205.76337105063098,
+      "RSI_14": 38.40464960258564,
+      "MACD_12_26": -1.2992869489937675,
+      "BB_upper": 221.06044669760368,
+      "BB_lower": 179.31655330239633
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 260.1,
+      "52w_low": 169.21,
+      "range_percentile": 0.8288216560509554,
+      "dcf_diff": 0.0
+    }
+  },
+  "ADBE": {
+    "elevator_pitch": "Adobe Inc., led by visionary CEO Shantanu Narayen, is at the forefront of the technology sector, revolutionizing the way individuals and businesses create, manage, and deliver digital content. With a comprehensive suite of innovative software solutions, including Adobe Creative Cloud and Adobe Experience Cloud, the company empowers millions of users worldwide to unleash their creativity and enhance customer experiences. Although currently with a market cap of $0 and no dividend yield, Adobe's commitment to continuous innovation and strategic growth positions it as a pivotal player in the digital transformation landscape, making it an exciting opportunity for investors looking to capitalize on the future of technology.",
+    "key_stats": {
+      "annualized_return": 0.07405270927119888,
+      "annualized_volatility": 0.36180572923305687,
+      "max_drawdown": -0.6002150006537184
+    },
+    "technicals": {
+      "SMA_20": 358.35,
+      "EMA_20": 368.76394919311593,
+      "RSI_14": 73.51237819279909,
+      "MACD_12_26": -2.0358066622242745,
+      "BB_upper": 385.3652736526151,
+      "BB_lower": 331.33472634738496
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 587.75,
+      "52w_low": 332.01,
+      "range_percentile": 0.1856573705179283,
+      "dcf_diff": 0.0
+    }
+  },
+  "AMD": {
+    "elevator_pitch": "Advanced Micro Devices, Inc. (AMD) is a cutting-edge technology company at the forefront of innovation in high-performance computing and graphics solutions. Under the visionary leadership of CEO Dr. Lisa T. Su, AMD is redefining the landscape of the semiconductor industry with its groundbreaking processors and GPUs that power everything from gaming to data centers. While currently not offering dividends, AMD's strategic focus on research and development positions it for explosive growth in an increasingly digital world, making it an exciting opportunity for investors looking to capitalize on the future of technology. Join us as we drive the next wave of computing excellence!",
+    "key_stats": {
+      "annualized_return": 0.2650945797046711,
+      "annualized_volatility": 0.5166605094406255,
+      "max_drawdown": -0.654499413254277
+    },
+    "technicals": {
+      "SMA_20": 92.277,
+      "EMA_20": 95.51939099322855,
+      "RSI_14": 67.41325394390324,
+      "MACD_12_26": -0.1534065781010412,
+      "BB_upper": 104.03462614781292,
+      "BB_lower": 80.51937385218709
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 187.28,
+      "52w_low": 76.48,
+      "range_percentile": 0.49083665338645416,
+      "dcf_diff": 0.0
+    }
+  },
+  "AMZN": {
+    "elevator_pitch": "Amazon.com, Inc., led by CEO Andrew R. Jassy, is a powerhouse in the consumer cyclical sector, revolutionizing the way people shop and interact with technology. With a relentless focus on innovation and customer experience, Amazon continues to dominate e-commerce and cloud computing, driving growth and transforming industries. Although currently at a market cap of $0 and offering no dividends, the company's strategic investments in logistics, artificial intelligence, and entertainment position it for unparalleled long-term success. Join us as we redefine convenience and connectivity in the digital age, making Amazon not just a shopping destination, but a vital part of everyday life.",
+    "key_stats": {
+      "annualized_return": 0.15438213983019325,
+      "annualized_volatility": 0.3557792915498092,
+      "max_drawdown": -0.5614514659377173
+    },
+    "technicals": {
+      "SMA_20": 181.72150000000002,
+      "EMA_20": 185.35040709110143,
+      "RSI_14": 52.595592853210384,
+      "MACD_12_26": -1.1334812874072782,
+      "BB_upper": 196.2231779791291,
+      "BB_lower": 167.21982202087094
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 242.52,
+      "52w_low": 151.61,
+      "range_percentile": 0.8669322709163346,
+      "dcf_diff": 0.0
+    }
+  },
+  "CSCO": {
+    "elevator_pitch": "Cisco Systems, Inc., led by CEO Charles H. Robbins, is a pioneering technology company at the forefront of networking and cybersecurity solutions, empowering businesses to thrive in an increasingly digital world. With a robust portfolio that includes cutting-edge software, hardware, and services, Cisco is dedicated to transforming how organizations connect, communicate, and secure their data. As a leader in innovation, Cisco is uniquely positioned to capitalize on the growing demand for secure and scalable network infrastructures, driving sustainable growth and delivering value to its stakeholders. Join us as we shape the future of technology and connectivity!",
+    "key_stats": {
+      "annualized_return": 0.10103734686316267,
+      "annualized_volatility": 0.23792472626195982,
+      "max_drawdown": -0.38602251407129407
+    },
+    "technicals": {
+      "SMA_20": 56.625,
+      "EMA_20": 57.634163218911425,
+      "RSI_14": 71.45885952371933,
+      "MACD_12_26": -0.2182024203120747,
+      "BB_upper": 59.84377060545455,
+      "BB_lower": 53.40622939454545
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 66.5,
+      "52w_low": 44.5,
+      "range_percentile": 0.9278884462151394,
+      "dcf_diff": 0.0
+    }
+  },
+  "F": {
+    "elevator_pitch": "Ford Motor Company, under the leadership of CEO James Duncan Farley Jr., is poised to redefine the future of mobility in the consumer cyclical sector. With a rich legacy of innovation and a commitment to sustainability, Ford is accelerating its transition to electric vehicles, leveraging cutting-edge technology to meet the evolving demands of consumers. While currently navigating a transformative phase with a market cap of $0 and a focus on reinvestment over dividends, Ford is strategically positioned to capitalize on the growing demand for eco-friendly transportation solutions. Join us as we drive towards a greener, smarter future, making Ford not just a car manufacturer, but a leader in the next generation of mobility.",
+    "key_stats": {
+      "annualized_return": 0.23425573138607977,
+      "annualized_volatility": 0.41437409738440584,
+      "max_drawdown": -0.6550218340611362
+    },
+    "technicals": {
+      "SMA_20": 9.694999999999999,
+      "EMA_20": 9.888943841515488,
+      "RSI_14": 60.54323092492732,
+      "MACD_12_26": 0.13895988954415728,
+      "BB_upper": 10.53791474251954,
+      "BB_lower": 8.852085257480457
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 14.85,
+      "52w_low": 8.44,
+      "range_percentile": 0.22350597609561754,
+      "dcf_diff": 0.0
+    }
+  },
+  "GM": {
+    "elevator_pitch": "General Motors Company, under the visionary leadership of CEO Ms. Mary T. Barra, is at the forefront of revolutionizing the automotive industry in the consumer cyclical sector. With a commitment to innovation and sustainability, GM is not just a legacy automaker; it\u2019s a trailblazer in electric and autonomous vehicles, poised to reshape the future of transportation. While currently navigating a transformative phase with a market cap of $0 and a focus on reinvestment rather than dividends, GM is strategically positioned to capitalize on the growing demand for eco-friendly mobility solutions. Join us as we drive towards a greener, smarter future, redefining what it means to be a leader in the automotive landscape.",
+    "key_stats": {
+      "annualized_return": 0.21681936133749136,
+      "annualized_volatility": 0.38868870953803475,
+      "max_drawdown": -0.5946151505932462
+    },
+    "technicals": {
+      "SMA_20": 45.10549999999999,
+      "EMA_20": 45.797401296999915,
+      "RSI_14": 45.99242221056737,
+      "MACD_12_26": -0.3150671389762181,
+      "BB_upper": 47.681343040331015,
+      "BB_lower": 42.52965695966897
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 61.24,
+      "52w_low": 38.96,
+      "range_percentile": 0.6119521912350597,
+      "dcf_diff": 0.0
+    }
+  },
+  "GOOGL": {
+    "elevator_pitch": "Introducing Alphabet Inc., a pioneering leader in the Communication Services sector, helmed by visionary CEO Mr. Sundar Pichai. With a commitment to innovation and connectivity, Alphabet is redefining how the world communicates, collaborates, and accesses information through its suite of cutting-edge products and services, including Google Search, YouTube, and cloud computing solutions. Although currently at a market cap of $0 and a dividend yield of 0.00%, Alphabet's relentless focus on technological advancement and user-centric experiences positions it for unparalleled growth and influence in the digital landscape. Join us as we shape the future of communication and empower billions around the globe.",
+    "key_stats": {
+      "annualized_return": 0.22686587589282384,
+      "annualized_volatility": 0.3086762178829534,
+      "max_drawdown": -0.443206086492259
+    },
+    "technicals": {
+      "SMA_20": 156.2415,
+      "EMA_20": 158.8387316538025,
+      "RSI_14": 66.19770035745736,
+      "MACD_12_26": 0.4419865255863158,
+      "BB_upper": 167.6099943686746,
+      "BB_lower": 144.8730056313254
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 207.05,
+      "52w_low": 140.53,
+      "range_percentile": 0.857484076433121,
+      "dcf_diff": 0.0
+    }
+  },
+  "IBM": {
+    "elevator_pitch": "International Business Machines Corporation (IBM) is a pioneering technology leader under the visionary leadership of CEO Arvind Krishna, dedicated to driving innovation and digital transformation across industries. With a rich legacy of over a century, IBM is at the forefront of cutting-edge solutions in cloud computing, artificial intelligence, and quantum computing, empowering businesses to harness data and enhance operational efficiency. Although currently navigating a challenging market landscape, IBM's commitment to research and development positions it as a key player in shaping the future of technology. Join us as we redefine possibilities and create value in an ever-evolving digital world.",
+    "key_stats": {
+      "annualized_return": 0.18376967301657632,
+      "annualized_volatility": 0.24363214252129486,
+      "max_drawdown": -0.21432978559308924
+    },
+    "technicals": {
+      "SMA_20": 237.01950000000002,
+      "EMA_20": 240.37648729583495,
+      "RSI_14": 65.30638436069495,
+      "MACD_12_26": 0.14077658631765644,
+      "BB_upper": 250.7159974008882,
+      "BB_lower": 223.32300259911185
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 266.45,
+      "52w_low": 162.62,
+      "range_percentile": 0.9737051792828685,
+      "dcf_diff": 0.0
+    }
+  },
+  "INTC": {
+    "elevator_pitch": "Introducing Intel Corporation, a pioneering force in the technology sector, led by visionary CEO Mr. Lip-Bu Tan. As a trailblazer in semiconductor innovation, Intel is committed to driving the future of computing with cutting-edge solutions that empower industries and enhance everyday life. While our current market cap stands at $0, we are focused on strategic growth and long-term value creation, positioning ourselves at the forefront of the digital transformation. With a robust pipeline of next-generation technologies, Intel is poised to redefine the landscape of artificial intelligence, cloud computing, and beyond, making it an exciting opportunity for investors looking to be part of a transformative journey. Join us as we shape the future of technology!",
+    "key_stats": {
+      "annualized_return": -0.12017828593939224,
+      "annualized_volatility": 0.4327735342281433,
+      "max_drawdown": -0.7343978904189863
+    },
+    "technicals": {
+      "SMA_20": 19.973499999999998,
+      "EMA_20": 20.46496300339629,
+      "RSI_14": 49.48199162344494,
+      "MACD_12_26": -0.36691939008002095,
+      "BB_upper": 21.6244553852816,
+      "BB_lower": 18.322544614718396
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 37.16,
+      "52w_low": 17.67,
+      "range_percentile": 0.050199203187251,
+      "dcf_diff": 0.0
+    }
+  },
+  "JNJ": {
+    "elevator_pitch": "Johnson & Johnson, under the leadership of CEO Mr. Joaquin Duato, is a pioneering force in the healthcare sector, dedicated to improving global health through innovative pharmaceuticals, cutting-edge medical devices, and trusted consumer health products. With a strong commitment to research and development, J&J is poised to tackle some of the world's most pressing health challenges, ensuring a healthier future for all. Although currently reflecting a market cap of $0 and a dividend yield of 0.00%, the company's robust pipeline and strategic initiatives position it for significant growth and value creation, making it an exciting opportunity for investors looking to make a meaningful impact in healthcare.",
+    "key_stats": {
+      "annualized_return": 0.0240052084117449,
+      "annualized_volatility": 0.16823238390026324,
+      "max_drawdown": -0.23627761948282167
+    },
+    "technicals": {
+      "SMA_20": 154.197,
+      "EMA_20": 155.7290989978716,
+      "RSI_14": 47.44177682208959,
+      "MACD_12_26": -0.6809274987195977,
+      "BB_upper": 159.29274889904428,
+      "BB_lower": 149.10125110095572
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 169.99,
+      "52w_low": 140.68,
+      "range_percentile": 0.2952191235059761,
+      "dcf_diff": 0.0
+    }
+  },
+  "LLY": {
+    "elevator_pitch": "Eli Lilly and Company, under the leadership of CEO Mr. David A. Ricks, is a pioneering force in the healthcare sector, dedicated to transforming patient care through innovative pharmaceuticals and cutting-edge research. With a robust pipeline of breakthrough therapies targeting critical health challenges, Eli Lilly is poised for significant growth and impact in the industry. Although currently at a market cap of $0 and with a dividend yield of 0.00%, the company's commitment to advancing science and improving lives positions it as a compelling opportunity for investors looking to support a leader in healthcare innovation. Join us in shaping the future of medicine and making a meaningful difference in the lives of millions.",
+    "key_stats": {
+      "annualized_return": 0.3885821715047828,
+      "annualized_volatility": 0.320814024304062,
+      "max_drawdown": -0.24906772775567076
+    },
+    "technicals": {
+      "SMA_20": 803.154,
+      "EMA_20": 824.9836244055828,
+      "RSI_14": 47.49527346156375,
+      "MACD_12_26": 9.813086654021845,
+      "BB_upper": 924.9885294414336,
+      "BB_lower": 681.3194705585664
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 972.53,
+      "52w_low": 677.09,
+      "range_percentile": 0.8812749003984064,
+      "dcf_diff": 0.0
+    }
+  },
+  "META": {
+    "elevator_pitch": "Meta Platforms, Inc., led by visionary CEO Mark Zuckerberg, is at the forefront of the Communication Services sector, redefining how people connect and interact in a digital world. With a commitment to innovation, Meta is pioneering advancements in social media, virtual reality, and augmented reality, creating immersive experiences that bring communities together. Although currently at a market cap of $0 and not offering dividends, Meta's transformative vision positions it as a leader in shaping the future of communication and technology, making it an exciting opportunity for investors looking to be part of the next digital revolution. Join us as we build the metaverse and connect billions of people in ways never before imagined!",
+    "key_stats": {
+      "annualized_return": 0.30788319685977217,
+      "annualized_volatility": 0.44106288465925086,
+      "max_drawdown": -0.7673609294049926
+    },
+    "technicals": {
+      "SMA_20": 538.3215,
+      "EMA_20": 554.9302741474249,
+      "RSI_14": 74.79895669511846,
+      "MACD_12_26": 0.269643109880235,
+      "BB_upper": 603.4721236266921,
+      "BB_lower": 473.17087637330786
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 740.91,
+      "52w_low": 432.28,
+      "range_percentile": 0.9482071713147411,
+      "dcf_diff": 0.0
+    }
+  },
+  "MSFT": {
+    "elevator_pitch": "Microsoft Corporation, led by CEO Satya Nadella, is a global technology powerhouse revolutionizing the way we work and live through innovative software, cloud computing, and AI solutions. With a commitment to empowering every individual and organization on the planet, Microsoft is at the forefront of digital transformation, driving efficiency and productivity across industries. Although currently listed with a market cap of $0 and a dividend yield of 0.00%, our focus remains on long-term growth and value creation, positioning us as a leader in the tech sector and a catalyst for future advancements. Join us as we shape the future of technology and unlock new possibilities for businesses and consumers alike.",
+    "key_stats": {
+      "annualized_return": 0.21182247080844888,
+      "annualized_volatility": 0.2717845633090105,
+      "max_drawdown": -0.3755646877094806
+    },
+    "technicals": {
+      "SMA_20": 387.1215,
+      "EMA_20": 395.68324537264925,
+      "RSI_14": 84.22231156357756,
+      "MACD_12_26": 10.162688349821906,
+      "BB_upper": 433.6457122702557,
+      "BB_lower": 340.5972877297444
+    },
+    "signal": "SELL",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 468.35,
+      "52w_low": 344.79,
+      "range_percentile": 0.9609872611464968,
+      "dcf_diff": 0.0
+    }
+  },
+  "NFLX": {
+    "elevator_pitch": "Netflix, Inc., led by CEO Mr. Theodore A. Sarandos, is a pioneering force in the Communication Services sector, redefining entertainment for millions worldwide. With a vast library of original content and a commitment to innovation, Netflix continues to captivate audiences through its unparalleled streaming platform. Although currently valued at $0 in market capitalization and offering no dividends, the company's focus on subscriber growth and global expansion positions it as a leader in shaping the future of media consumption. Join us as we revolutionize how stories are told and experienced, making Netflix not just a service, but a cultural phenomenon.",
+    "key_stats": {
+      "annualized_return": 0.29522207054745786,
+      "annualized_volatility": 0.446417873667518,
+      "max_drawdown": -0.7594731743989362
+    },
+    "technicals": {
+      "SMA_20": 1021.6690000000001,
+      "EMA_20": 1052.7459132956344,
+      "RSI_14": 73.87491289962765,
+      "MACD_12_26": 54.076580364704796,
+      "BB_upper": 1215.1102097715793,
+      "BB_lower": 828.2277902284208
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 1159.44,
+      "52w_low": 555.59,
+      "range_percentile": 0.999203187250996,
+      "dcf_diff": 0.0
+    }
+  },
+  "NVDA": {
+    "elevator_pitch": "NVIDIA Corporation, led by visionary CEO Mr. Jen-Hsun Huang, is at the forefront of the technology sector, pioneering innovations in graphics processing units (GPUs) and artificial intelligence (AI) that are transforming industries from gaming to healthcare. With a market cap of $0, NVIDIA is poised for explosive growth as it continues to drive advancements in machine learning and data center solutions, positioning itself as a critical player in the digital economy. While currently offering a 0.00% dividend yield, the company's focus on reinvesting in cutting-edge research and development promises substantial long-term value for investors looking to capitalize on the future of technology. Join us as we shape the next era of computing!",
+    "key_stats": {
+      "annualized_return": 0.6834197903303414,
+      "annualized_volatility": 0.5308785020713949,
+      "max_drawdown": -0.6635710005991615
+    },
+    "technicals": {
+      "SMA_20": 106.9105,
+      "EMA_20": 108.9633265698329,
+      "RSI_14": 63.741868216783175,
+      "MACD_12_26": 0.0489753077063142,
+      "BB_upper": 118.92860822314293,
+      "BB_lower": 94.89239177685707
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 153.13,
+      "52w_low": 83.2,
+      "range_percentile": 0.853386454183267,
+      "dcf_diff": 0.0
+    }
+  },
+  "ORCL": {
+    "elevator_pitch": "Oracle Corporation, led by the visionary CEO Ms. Safra Ada Catz, is a powerhouse in the technology sector, specializing in cloud computing and enterprise software solutions that drive innovation and efficiency for businesses worldwide. With a commitment to empowering organizations through cutting-edge technologies, Oracle is at the forefront of digital transformation, offering robust data management and analytics tools that enable companies to harness the full potential of their data. As we navigate an increasingly digital landscape, Oracle stands ready to support enterprises in their journey towards growth and success, making it an exciting opportunity for investors looking to engage with a leader in the tech industry.",
+    "key_stats": {
+      "annualized_return": 0.2605000033364377,
+      "annualized_volatility": 0.31919807392105626,
+      "max_drawdown": -0.4108055957549448
+    },
+    "technicals": {
+      "SMA_20": 135.43149999999997,
+      "EMA_20": 139.98212590146144,
+      "RSI_14": 71.87149511172093,
+      "MACD_12_26": 0.6162849322801947,
+      "BB_upper": 151.08227738106243,
+      "BB_lower": 119.78072261893752
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 198.31,
+      "52w_low": 114.26,
+      "range_percentile": 0.8948207171314742,
+      "dcf_diff": 0.0
+    }
+  },
+  "QCOM": {
+    "elevator_pitch": "Introducing QUALCOMM Incorporated, a pioneering force in the technology sector, led by CEO Cristiano Renno Amon. As a global leader in wireless technology and semiconductor solutions, QUALCOMM is at the forefront of the 5G revolution, driving innovation across mobile, automotive, and IoT industries. With a robust portfolio of patents and cutting-edge technologies, we empower businesses and consumers alike to connect seamlessly in an increasingly digital world. While our current market cap stands at $0 and we do not offer a dividend yield, our commitment to research and development positions us for exponential growth and transformative impact in the tech landscape. Join us as we shape the future of connectivity!",
+    "key_stats": {
+      "annualized_return": 0.1929292495946791,
+      "annualized_volatility": 0.3965794642313623,
+      "max_drawdown": -0.4557269653423498
+    },
+    "technicals": {
+      "SMA_20": 139.517,
+      "EMA_20": 142.62673684007487,
+      "RSI_14": 44.722891901956764,
+      "MACD_12_26": -1.8862609183831296,
+      "BB_upper": 152.1267607974276,
+      "BB_lower": 126.90723920257237
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 230.63,
+      "52w_low": 120.8,
+      "range_percentile": 0.5123505976095617,
+      "dcf_diff": 0.0
+    }
+  },
+  "TSLA": {
+    "elevator_pitch": "Tesla, Inc. is revolutionizing the consumer cyclical sector with its cutting-edge electric vehicles and sustainable energy solutions, led by visionary CEO Elon R. Musk. With a commitment to innovation and environmental responsibility, Tesla is not just a car manufacturer; it's a global leader in the transition to renewable energy. Although currently valued at $0 in market cap and offering no dividends, Tesla's relentless pursuit of technological advancement and expansion into new markets positions it for unparalleled growth and long-term value creation. Join us in driving the future of transportation and energy!",
+    "key_stats": {
+      "annualized_return": 0.5421947807031691,
+      "annualized_volatility": 0.6403944859053885,
+      "max_drawdown": -0.7363221699148721
+    },
+    "technicals": {
+      "SMA_20": 259.50849999999997,
+      "EMA_20": 268.217402292649,
+      "RSI_14": 57.97673218054609,
+      "MACD_12_26": 5.302022323820552,
+      "BB_upper": 303.56211913562606,
+      "BB_lower": 215.45488086437385
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 488.54,
+      "52w_low": 167.41,
+      "range_percentile": 0.7832669322709164,
+      "dcf_diff": 0.0
+    }
+  },
+  "UNH": {
+    "elevator_pitch": "UnitedHealth Group Incorporated, under the visionary leadership of CEO Sir Andrew Philip Witty, is a pioneering force in the healthcare sector, dedicated to transforming the way healthcare is delivered and experienced. With a commitment to innovation and accessibility, UnitedHealth leverages cutting-edge technology and data-driven insights to enhance patient care and streamline health services. Although currently listed with a market cap of $0 and a dividend yield of 0.00%, our focus is on long-term growth and sustainable solutions that empower individuals and communities to achieve better health outcomes. Join us as we redefine healthcare for a brighter, healthier future.",
+    "key_stats": {
+      "annualized_return": 0.10682303317466135,
+      "annualized_volatility": 0.26607997586373866,
+      "max_drawdown": -0.3603838464614153
+    },
+    "technicals": {
+      "SMA_20": 481.46950000000004,
+      "EMA_20": 455.02543068671156,
+      "RSI_14": 22.55072255133672,
+      "MACD_12_26": -33.168341157940915,
+      "BB_upper": 643.8735513462748,
+      "BB_lower": 319.0654486537253
+    },
+    "signal": "HOLD",
+    "valuations": {
+      "P/E": NaN,
+      "P/B": NaN,
+      "P/S": NaN
+    },
+    "price_comparison": {
+      "52w_high": 630.73,
+      "52w_low": 393.11,
+      "range_percentile": 0.22231075697211156,
+      "dcf_diff": 0.0
+    }
+  }
+}
